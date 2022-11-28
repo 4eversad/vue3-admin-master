@@ -1,0 +1,45 @@
+{
+  "name": "vue-admin",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "all": "concurrently \"vue-cli-service serve \" \"json-server --watch mock/data.json\"",
+    "mock": "json-server --watch mock/data.json"
+  },
+  "dependencies": {
+    "@tinymce/tinymce-vue": "^4.0.7",
+    "axios": "^0.27.2",
+    "concurrently": "^7.4.0",
+    "cookie_js": "^1.4.2",
+    "core-js": "^3.8.3",
+    "dayjs": "^1.11.6",
+    "element-plus": "^2.2.17",
+    "element-ui": "^2.15.10",
+    "js-sha1": "^0.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "polyfill": "^0.1.0",
+    "vue": "^3.2.13",
+    "vue-quill-editor": "^3.0.6",
+    "vue-router": "^4.0.3",
+    "vuex": "^4.1.0",
+    "vuex-persistedstate": "^4.1.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-router": "~5.0.0",
+    "@vue/cli-plugin-vuex": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "less": "^4.1.3",
+    "less-loader": "^8.0.0",
+    "style-resources-loader": "^1.5.0",
+    "vue-cli-plugin-style-resources-loader": "~0.1.5"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ]
+}
